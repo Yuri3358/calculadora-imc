@@ -1,0 +1,35 @@
+#calculator {
+    background-color: white;
+    width: 8cm;
+    color: black;
+    padding: 1cm;
+    padding-left: 1cm;
+    border-radius: 6px;
+    margin: auto;
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.334);
+}
+
+.labels {
+    font-size: 24px;
+}
+
+.inputs {
+    font-size: 20px;
+    width: 2cm;
+    border-radius: 4px;
+    border: 1.5px solid black;
+}
+
+#weight-input {
+    margin-left: 13px;
+}
+
+#height-input {
+    margin-left: 5px;
+}
+.btn-success {
+    font-size: 18px;
+    border: 1px solid black;
+    margin-top: 4px;
+}
