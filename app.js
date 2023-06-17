@@ -1,7 +1,7 @@
 const app = Vue.createApp({})
 
 app
-.component("pageHeader", headerComponent)
-.component("calculator", calcComponent)
+.component("header-component", pageHeader)
+//.component("calculator", calcComponent)
 
 app.mount("#root")
