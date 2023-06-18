@@ -15,7 +15,7 @@ const calculator = {
                 alert("Preencha todos os valores!")
             } else {
                 this.bmi = (this.weight / this.height**2)*10000
-                this.infos = `Seu IMC: ${this.bmi.toFixed(2)}kg/cm²`
+                this.infos = `Seu IMC: ${this.bmi.toFixed(2)}kg/m²`
     
                 if (this.bmi < 16) {
                     this.bmiRate = "Baixo Peso"
